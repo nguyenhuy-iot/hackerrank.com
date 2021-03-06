@@ -76,9 +76,33 @@ namespace Tool_directory
                 MessageBox.Show("ERROR");
             }
         }
+        //
+        void SaveConfig()
+        {
+            string pathRoot = @"Config.txt";
+            // Create a file to write to.
+            string createText =
+                tbxPath.Text + Environment.NewLine +
+                tbxNameFile.Text + Environment.NewLine +
+                tbxSourcePath.Text + Environment.NewLine;
+            File.WriteAllText(pathRoot, createText);
+        }
+        void load()
+        {
+            string pathRoot = @"Config.txt";
+            if (File.Exists(pathRoot))
+            {
+                // Open the file to read from.
+                string[] readText = File.ReadAllLines(pathRoot);
+                tbxPath.Text = readText[0];
+                tbxNameFile.Text = readText[1];
+                tbxSourcePath.Text = readText[2];
+            }            
+        }
         public Form1()
         {
             InitializeComponent();
+            load();
         }
 
         private void btnAddFoder_Click(object sender, EventArgs e)
@@ -110,6 +134,11 @@ namespace Tool_directory
             string sourcePath = tbxSourcePath.Text;
             string targetPath = tbxLink.Text;
             CopyAll(sourcePath, targetPath);            
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            SaveConfig();
         }
     }
 }

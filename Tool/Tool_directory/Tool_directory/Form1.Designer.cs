@@ -170,6 +170,7 @@ namespace Tool_directory
             this.Controls.Add(this.tbxPath);
             this.Name = "Form1";
             this.Text = "Tool_directory";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
