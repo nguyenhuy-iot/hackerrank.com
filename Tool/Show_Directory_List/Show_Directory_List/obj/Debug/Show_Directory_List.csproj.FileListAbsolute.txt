@@ -1,0 +1,7 @@
+C:\Users\Nguyen Huy\Desktop\New folder\Show_Directory_List\Show_Directory_List\obj\Debug\Show_Directory_List.csprojAssemblyReference.cache
+C:\Users\Nguyen Huy\Desktop\New folder\Show_Directory_List\Show_Directory_List\obj\Debug\Show_Directory_List.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Huy\Desktop\New folder\Show_Directory_List\Show_Directory_List\bin\Debug\Show_Directory_List.exe.config
+C:\Users\Nguyen Huy\Desktop\New folder\Show_Directory_List\Show_Directory_List\bin\Debug\Show_Directory_List.exe
+C:\Users\Nguyen Huy\Desktop\New folder\Show_Directory_List\Show_Directory_List\bin\Debug\Show_Directory_List.pdb
+C:\Users\Nguyen Huy\Desktop\New folder\Show_Directory_List\Show_Directory_List\obj\Debug\Show_Directory_List.exe
+C:\Users\Nguyen Huy\Desktop\New folder\Show_Directory_List\Show_Directory_List\obj\Debug\Show_Directory_List.pdb
