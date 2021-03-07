@@ -5,3 +5,10 @@ C:\Users\Nguyen Huy\Desktop\AptechWork\ConsoleTool\ConsoleTool\obj\Debug\Console
 C:\Users\Nguyen Huy\Desktop\AptechWork\ConsoleTool\ConsoleTool\obj\Debug\ConsoleTool.csproj.CoreCompileInputs.cache
 C:\Users\Nguyen Huy\Desktop\AptechWork\ConsoleTool\ConsoleTool\obj\Debug\ConsoleTool.exe
 C:\Users\Nguyen Huy\Desktop\AptechWork\ConsoleTool\ConsoleTool\obj\Debug\ConsoleTool.pdb
+C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\ConsoleTool\bin\Debug\ConsoleTool.exe.config
+C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\ConsoleTool\bin\Debug\ConsoleTool.exe
+C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\ConsoleTool\bin\Debug\ConsoleTool.pdb
+C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\ConsoleTool\obj\Debug\ConsoleTool.csprojAssemblyReference.cache
+C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\ConsoleTool\obj\Debug\ConsoleTool.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\ConsoleTool\obj\Debug\ConsoleTool.exe
+C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\ConsoleTool\obj\Debug\ConsoleTool.pdb
