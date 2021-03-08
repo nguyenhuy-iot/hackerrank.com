@@ -8,3 +8,13 @@ C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\CreateCode\o
 C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\CreateCode\obj\Debug\CreateCode.csproj.CoreCompileInputs.cache
 C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\CreateCode\obj\Debug\CreateCode.exe
 C:\Users\Nguyen Huy\Desktop\Git\hackerrank.com\Tool\e-book6-reactjs\CreateCode\obj\Debug\CreateCode.pdb
+C:\Users\admin\Desktop\GIT\hackerrank.com\Tool\e-book6-reactjs\CreateCode\bin\Debug\CreateCode.exe.config
+C:\Users\admin\Desktop\GIT\hackerrank.com\Tool\e-book6-reactjs\CreateCode\bin\Debug\CreateCode.exe
+C:\Users\admin\Desktop\GIT\hackerrank.com\Tool\e-book6-reactjs\CreateCode\bin\Debug\CreateCode.pdb
+C:\Users\admin\Desktop\GIT\hackerrank.com\Tool\e-book6-reactjs\CreateCode\obj\Debug\CreateCode.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\GIT\hackerrank.com\Tool\e-book6-reactjs\CreateCode\obj\Debug\CreateCode.Form1.resources
+C:\Users\admin\Desktop\GIT\hackerrank.com\Tool\e-book6-reactjs\CreateCode\obj\Debug\CreateCode.Properties.Resources.resources
+C:\Users\admin\Desktop\GIT\hackerrank.com\Tool\e-book6-reactjs\CreateCode\obj\Debug\CreateCode.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\GIT\hackerrank.com\Tool\e-book6-reactjs\CreateCode\obj\Debug\CreateCode.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\GIT\hackerrank.com\Tool\e-book6-reactjs\CreateCode\obj\Debug\CreateCode.exe
+C:\Users\admin\Desktop\GIT\hackerrank.com\Tool\e-book6-reactjs\CreateCode\obj\Debug\CreateCode.pdb

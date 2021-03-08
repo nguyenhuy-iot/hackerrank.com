@@ -29,15 +29,17 @@ namespace CreateCode
             Col += Page_E + "/";
 
             string Text = "";
+            int count_row = 1;
             foreach (var item in arrCol)
             {
-                Text += Row_Open + Count + "\r\n";
+                Text += Row_Open + count_row + "\r\n";
                 for (int i = 0; i < item; i++)
                 {
                     Text += Col + Count + ".jpg'},\r\n";
                     Count++;
                 }
                 Text += Row_Close + "\r\n";
+                count_row++;
             }
 
             tbxText.Text = Text;
