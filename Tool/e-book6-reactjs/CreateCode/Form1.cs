@@ -35,7 +35,15 @@ namespace CreateCode
                 Text += Row_Open + count_row + "\r\n";
                 for (int i = 0; i < item; i++)
                 {
-                    Text += Col + Count + ".jpg'},\r\n";
+                    //Text += Col + Count + ".jpg'},\r\n";
+                    if (cbxInput.Checked && i%2!=0)
+                    {
+                        Text += Col + Count + ".jpg', input: true, answer: \"\"},\r\n";
+                    }
+                    else
+                    {
+                        Text += Col + Count + ".jpg'},\r\n";
+                    }
                     Count++;
                 }
                 Text += Row_Close + "\r\n";

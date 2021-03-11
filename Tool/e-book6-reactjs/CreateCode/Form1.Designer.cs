@@ -35,6 +35,7 @@
             this.tbxText = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnRun = new System.Windows.Forms.Button();
+            this.cbxInput = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // tbxUrl
@@ -74,7 +75,7 @@
             // tbxText
             // 
             this.tbxText.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbxText.Location = new System.Drawing.Point(15, 110);
+            this.tbxText.Location = new System.Drawing.Point(15, 122);
             this.tbxText.Multiline = true;
             this.tbxText.Name = "tbxText";
             this.tbxText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -84,7 +85,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 94);
+            this.label3.Location = new System.Drawing.Point(12, 106);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 5;
@@ -100,11 +101,23 @@
             this.btnRun.UseVisualStyleBackColor = true;
             this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
             // 
+            // cbxInput
+            // 
+            this.cbxInput.AllowDrop = true;
+            this.cbxInput.AutoSize = true;
+            this.cbxInput.Location = new System.Drawing.Point(194, 99);
+            this.cbxInput.Name = "cbxInput";
+            this.cbxInput.Size = new System.Drawing.Size(70, 17);
+            this.cbxInput.TabIndex = 8;
+            this.cbxInput.Text = "add input";
+            this.cbxInput.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 273);
+            this.ClientSize = new System.Drawing.Size(290, 302);
+            this.Controls.Add(this.cbxInput);
             this.Controls.Add(this.btnRun);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tbxText);
@@ -129,6 +142,7 @@
         private System.Windows.Forms.TextBox tbxText;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnRun;
+        private System.Windows.Forms.CheckBox cbxInput;
     }
 }
 
