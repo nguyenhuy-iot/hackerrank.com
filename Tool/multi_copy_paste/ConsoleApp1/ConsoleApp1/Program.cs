@@ -10,6 +10,11 @@ namespace KeyLogger
 {
     class Program
     {
+        private static string[] Text;
+        private static int Index;
+
+
+
         #region hook key board
         private const int WH_KEYBOARD_LL = 13;
         private const int WM_KEYDOWN = 0x0100;
@@ -77,7 +82,7 @@ namespace KeyLogger
                 int vkCode = Marshal.ReadInt32(lParam);
 
                 CheckHotKey(vkCode);
-                WriteLog(vkCode);
+                //WriteLog(vkCode);
             }
             return CallNextHookEx(_hookID, nCode, wParam, lParam);
         }
@@ -128,20 +133,45 @@ namespace KeyLogger
                 isShowing = !isShowing;
             }
             /////////////
-            if ((Keys)(vkCode) == Keys.F3 || (Keys)(vkCode) == Keys.Tab)    // F3 or tab : next
-            {    if (queue.Count != 0) 
+            //if ((Keys)(vkCode) == Keys.F3 || (Keys)(vkCode) == Keys.Tab)    // F3 or tab : next
+            //{    if (queue.Count != 0) 
+            //    {
+            //        string text = queue.Dequeue();
+            //        Clipboard.Clear();
+            //        Clipboard.SetText(text);
+            //        Console.WriteLine("next: " + text);
+            //    }
+            //}
+            //if ((previoursKey == Keys.LControlKey || previoursKey == Keys.RControlKey) && (Keys)(vkCode) == Keys.C) //copy
+            //{
+            //    string item = Clipboard.GetText();
+            //    queue.Enqueue(item);
+            //    Console.WriteLine("input: " + item);                
+            //}
+            if ((previoursKey == Keys.LControlKey || previoursKey == Keys.RControlKey) && (Keys)(vkCode) == Keys.NumPad0) //
+            {
+                string pathRoot = @"Log.txt";
+                if (File.Exists(pathRoot))
                 {
-                    string text = queue.Dequeue();
-                    Clipboard.Clear();
-                    Clipboard.SetText(text);
-                    Console.WriteLine("next: " + text);
+                    // Open the file to read from.
+                    Text = File.ReadAllLines(pathRoot);
+                    Index = 0;
+                    Console.WriteLine(string.Join("\n",Text));
+                }
+                else
+                {
+                    Console.WriteLine($"not found: {pathRoot}");
                 }
             }
-            if ((previoursKey == Keys.LControlKey || previoursKey == Keys.RControlKey) && (Keys)(vkCode) == Keys.C) //copy
+            if ((previoursKey == Keys.LControlKey || previoursKey == Keys.RControlKey) && (Keys)(vkCode) == Keys.V) //paste
             {
-                string item = Clipboard.GetText();
-                queue.Enqueue(item);
-                Console.WriteLine("input: " + item);                
+                Clipboard.SetText(Text[Index]);
+                Console.WriteLine($"{Index}: {Text[Index]}");
+                Index++;
+                if (Index >= Text.Length)
+                {
+                    Index = 0;
+                }
             }
             ///////////////
             previoursKey = (Keys)vkCode;
